@@ -1,0 +1,117 @@
+﻿In this demo, we will see how to create a
+BLOB and a storage account.
+If you want to upload the BLOB, we'll need to
+have storage accounts.
+So it will be our first step, right?
+We'll need to find a service that is called Storage
+Account.
+Use the plus button to create a resource as if
+you did in previous demos.
+We'll select Create and we'll need to provide the information
+about subscription and resource groups.
+We can use the resource group that we created during
+our VM creation and after that we will need to
+provide a storage account name that's global and unique also
+to be informed in this info box.
+So the name must be unique across all existing storage
+account names in Azure.
+It's very important otherwise you can create a storage account.
+So I will create one where is like Sandra long
+name to be sure that it's the unique one and
+it's works.
+Now you see I can continue, I will keep the
+same region as it's close to me and I can
+also select performance.
+Is it standard or it's a premium one that I
+would like to have If I need a low latency
+or could be standard and I will need to select
+redundancy option?
+I have all redundancy options that we discuss LR, SG0RS,
+ZRS&GZRSI will select LRS if it's less expensive one and
+I'm using the storage account just for a demo.
+And there are also different advanced options for security that
+you don't need to know to pass anything on 100
+exam, but you need to know that you have extra
+feature if you want to enhance your security.
+After that we have networking.
+I will keep by default that I want to have
+a public access from all networks.
+But if I want to have access just from selected
+specific virtual network I can select it here or if
+I want to just some IP addresses can access my
+storage account.
+I can also modify it.
+On this page we have a data protection option that
+is very interesting because we have a soft delete.
+Soft delete means if I delete some element or some
+BLOB, it's all kept for seven days in my trash
+bin.
+So by default it's seven days and it's helps to
+protect the data from accidental deletion for example.
+And if you want you can modify the number of
+days.
+On this page we have also encryption.
+If I want to go for example for custom manager
+keys for encryption, no worries.
+Again it's a bit out of scope of 18 and
+100, but you have those advanced options.
+Here we have tags as we had then on previous
+resource creation and then we have review and we can
+create our storage account.
+Let's hit create starting the deployment and usually it still
+takes 1-2 minutes to create your storage account.
+And after that we can go inside and create our
+container to add a BLOB inside.
+So deployment is in progress.
+Let's wait a bit.
+Wonderful.
+Our resources created, Let's go to our storage account.
+So here we have an overview and as well we
+have data storage with four different options that we saw
+on our deck Containers, file shares, queues and tables.
+For block creation we will need to use containers.
+So we'll select in data storage containers and add a
+new container VRR plus button.
+Let's select the container and provide a name to it
+8900 and we have different public access level, private non
+anonymous access BLOB anonymous read access for blobs or containers.
+For give anonymous access for read to our containers and
+to our blobs I will use a private one and
+if I want I can also set up encryptions extra
+capabilities in advanced.
+But for the simple demo I will just select private
+public access and create my container.
+After I can go inside of my container and upload
+a BLOB.
+Inside I will browse for files.
+Here I have one BLOB that I prepared and I
+will click upload.
+So we have successful upload our BLOB and now let's
+say we want to share it.
+I have an overlay link here to my blog, but
+if I would like to share with some external users
+as it's in private access, I will need to generate
+a key.
+You see, I have here a SAS, so if I
+would like now to share it with someone out of
+my organization to see this image I will use Generate
+SAS and I can provide just in time access to
+my BLOB in Private access.
+So it's very important to select the permissions.
+I will just read access to this BLOB and select
+when I'm given access.
+And I can generate a SAS token to have temporary
+access to this image outside of my organization.
+And to test it, let's open new in private tab
+and try to access our image.
+And here we have a beautiful statement.
+Keep calm and configure Azure.
+It's what we're learning together today.
+So thank you for your attention to this demo.
+We saw together that we need first to create a
+storage account.
+After that, we will create a container and upload BLOB
+inside and we can share it.
+Thanks to SAS for a specific amount of time.
+Thank you for your attention.
+Let's come back to our presentation.

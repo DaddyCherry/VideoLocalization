@@ -1,0 +1,33 @@
+﻿Let's begin by familiarizing ourselves with different storage services.
+You will learn about Azure Storage Account and how it
+relates to various available storage services.
+We'll also discuss blow up storage tiers, data redundancy options
+and ways to move data or even entire infrastructures to
+Azure.
+And now let's dive into our data storage starting with
+Storage accounts.
+A storage account provides unique namespace for data in Azure
+Storage services, accessible from anywhere in the world via HTTP
+or https://protocols.
+Azure Storage account contains all data objects of Azure Storage
+Services, large binary objects or blobs, files, queues and tables.
+Data in a storage account is protected, highly available, reliable
+and scalable.
+When creating a storage account, you first need to choose
+an account type.
+The account type influences the storage services and the redundancy
+options affecting the way you can use it.
+But what do I mean by redundancy options, you might
+ask?
+In a storage, multiple copies of data are always stored
+to protect against planned or unplanned events such as hardware,
+network, or power failures.
+Natural disaster and more redundancy ensures that your storage account
+meets the target availability and durability even in the event
+of failures.
+When deciding on the best redundancy option for your scenario
+and to find the optimal balance between cost and high
+availability locally redundant storage LRS replicates data three times.
+Using a single data centre in the primary region, LRS
+ensures object durability of at least 99 point 999999 percent,
+that is 11 ninth over a given year.
